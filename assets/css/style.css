@@ -3,6 +3,78 @@
     height: 200px;
 }
 
-/* #nav {
+
+
+
+
+/* This is for everything in the header */
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-color: #cccccc;
+    height: 100px;
+    width: 100%;
+}
+#nav {
     float: right;
-} */
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.header-name {
+    position: absolute;
+    bottom: 0;
+    background-color: #4aaaa5;
+}
+h1 {
+    font-family: "Georgia", Times, "Times New Roman", serif;
+}
+
+
+
+
+
+
+
+/* This is for everything in the body */
+
+#about-me {
+    clear: auto;
+    margin: auto;
+    width: 960px;
+}
+
+#about-me-title {
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
+
+}
+body {
+    background-color: lightgray;
+    margin: -22px 0 0 0;
+}
+
+#about-me {
+    background-color: #ffffff;
+}
+
+.margins {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* This is for the footer */
+footer {
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+}
