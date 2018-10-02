@@ -7,7 +7,7 @@
 
 
 
-/* This is for everything in the header */
+/* Header for All Pages */
 header {
     position: relative;
     top: 0;
@@ -20,8 +20,23 @@ header {
 #nav {
     float: right;
     position: fixed;
-    top: 0;
+    top: 10px;
     right: 0;
+}
+
+#nav li {
+    display: inline;
+    padding: 10px;
+    vertical-align: middle;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: gray;
 }
 
 .header-name {
@@ -40,10 +55,7 @@ h1 {
 
 
 
-
-
-
-/* This is for everything in the body */
+/* About Me Page*/
 
 #about-me {
     clear: auto;
@@ -79,7 +91,7 @@ body {
 }
 
 
-/* This is for the footer */
+/* All Pages Footer*/
 footer {
     background-color: #666666;
     width: 100%;
@@ -88,4 +100,45 @@ footer {
     border-top-style: solid;
     border-color: #4aaaa5;
     margin-top: 50px;
+}
+
+
+/* Contact Form */
+#contact-form {
+    margin-top: 20px;
+    background-color: white;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto
+    color: #4aaaa5
+}
+
+#contact-title {
+    border-bottom-style: solid;
+    color: #4aaaa5;
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
+}
+
+#input-name {
+    width: 99%;
+    height: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+#input-email {
+    width: 99%;
+    height: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+#input-message {
+    width: 99%;
+    height: 150px;
+    margin: auto;
+    padding: auto;
 }
