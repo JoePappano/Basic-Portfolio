@@ -93,6 +93,8 @@ body {
 
 /* All Pages Footer*/
 footer {
+    position: absolute;
+    bottom: 0;
     background-color: #666666;
     width: 100%;
     height: 50px;
@@ -110,8 +112,8 @@ footer {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: auto
-    color: #4aaaa5
+    margin-bottom: auto;
+    color: gray;
 }
 
 #contact-title {
@@ -127,6 +129,7 @@ footer {
     height: 25px;
     margin: auto;
     padding: auto;
+    border-color: gray;
 }
 
 #input-email {
