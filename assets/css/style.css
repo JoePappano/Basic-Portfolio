@@ -1,6 +1,9 @@
 #myPic {
     width: 200px;
     height: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 17px;
 }
 
 
@@ -62,8 +65,10 @@ h1 {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    /* margin: auto; */
+    margin-bottom: 30px;
     width: 960px;
+    height: 435px;
+    
 }
 
 #about-me-title {
@@ -84,10 +89,10 @@ body {
 }
 
 .margins {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -129,7 +134,8 @@ footer {
     height: 25px;
     margin: auto;
     padding: auto;
-    border-color: gray;
+    border: 1px solid gray;
+    /* border-color: gray; */
 }
 
 #input-email {
@@ -144,4 +150,41 @@ footer {
     height: 150px;
     margin: auto;
     padding: auto;
+}
+
+/* Portfolio Page */
+
+#container {
+    clear: auto;
+    width: 960px;
+    height: 435px;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hangmanpic {
+    width: 150px;
+    height: 150px;
+}
+
+#spaceInvaders {
+    width: 150px;
+    height: 150px;
+}
+
+#triviaPic {
+    width: 150px;
+    height: 150px;
+}
+
+#rockPaperScissors {
+    width: 150px;
+    height: 150px;
+}
+
+#RPGGame {
+    width: 150px;
+    height: 150px;
 }
