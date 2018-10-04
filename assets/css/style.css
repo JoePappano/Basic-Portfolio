@@ -164,27 +164,39 @@ footer {
     margin-right: auto;
 }
 
+#container-pics {
+    margin-left: auto;
+    margin-right: auto;
+    height: 435px;
+    background-color: #ffffff;
+}
+
 #hangmanpic {
+    position: relative;
     width: 150px;
     height: 150px;
 }
 
 #spaceInvaders {
+    position: relative;
     width: 150px;
     height: 150px;
 }
 
 #triviaPic {
+    position: relative;
     width: 150px;
     height: 150px;
 }
 
 #rockPaperScissors {
+    position: relative;
     width: 150px;
     height: 150px;
 }
 
 #RPGGame {
+    position: relative;
     width: 150px;
     height: 150px;
 }
