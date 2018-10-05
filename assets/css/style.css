@@ -80,6 +80,7 @@ h1 {
 
 }
 body {
+    height: 100%;
     background-color: lightgray;
     margin: -22px 0 0 0;
 }
@@ -106,7 +107,7 @@ footer {
     text-align: center;
     border-top-style: solid;
     border-color: #4aaaa5;
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 
@@ -157,7 +158,7 @@ footer {
 #container {
     clear: auto;
     width: 960px;
-    height: 435px;
+    height: 500px;
     background-color: #ffffff;
     margin-top: 30px;
     margin-left: auto;
@@ -165,41 +166,37 @@ footer {
 }
 
 #container-pics {
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 500px;
+    width: 50%;
+    height: relative;
     background-color: #ffffff;
+    margin: 0 auto;
 }
 
 #hangmanpic {
-    position: relative;
     width: 150px;
     height: 150px;
     float: left;
 }
 
 #spaceInvaders {
-    position: relative;
     width: 150px;
     height: 150px;
+    float: left;
 }
 
 #triviaPic {
-    position: relative;
     width: 150px;
     height: 150px;
     float: left;
 }
 
 #rockPaperScissors {
-    position: relative;
     width: 150px;
     height: 150px;
     float: left;
 }
 
 #RPGGame {
-    position: relative;
     width: 150px;
     height: 150px;
     float: left;
