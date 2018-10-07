@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,13 @@
     <link rel=stylesheet href="assets/css/style.css">
     <title> Portfolio </title>
 </head>
+
 <body>
     <header>
         <section class="header-name">
             <h1> Joe Pappano </h1>
         </section>
-        <nav id="nav"> 
+        <nav id="nav">
             <ul>
                 <li><a href="index.html">About Me</a></li>
                 <li> | </li>
@@ -23,26 +25,42 @@
         </nav>
     </header>
     <div id="container">
+        <div id="portfolio">
+            <h1> Portfolio </h1>
+        </div>
         <div id="container-pics">
-            <section>
+            <div id="row-1">
+            <section class="pic-container">
                 <img id="hangmanpic" src="assets/images/hangManPic.jpeg" alt="hangmanpic">
+                <div class="bannerLabel">Hangman</div>
             </section>
-            <section>
-                <a href="https://scratch.mit.edu/projects/241231131/"><img id="spaceInvaders" src="assets/images/spaceInvaders.png" alt="spaceInvadersPic"></a>
+            <section class="pic-container">
+                <a href="https://scratch.mit.edu/projects/241231131/"><img id="spaceInvaders" src="assets/images/spaceInvaders.png"
+                        alt="spaceInvadersPic"></a>
+                <div class="bannerLabel">Scratch</div>
             </section>
-            <section>
+            <section class="pic-container">
                 <img id="triviaPic" src="assets/images/TriviaPic.jpg" alt="triviaPic">
+                <div class="bannerLabel">Trivia</div>
             </section>
-            <section>
+            </div>
+            <div id="row-2">
+            <section class="pic-container">
                 <img id="rockPaperScissors" src="assets/images/rockPaperScissors.jpg" alt="RockPaperScissors">
+                <div class="bannerLabel">Rock Paper Scissors</div>
             </section>
-            <section>
+            <section class="pic-container">
                 <img id="RPGGame" src="assets/images/RPGGame.jpg" alt="RPGGame">
+                <div class="bannerLabel">RPG Game</div>
             </section>
-        </div>  
+            </div>
+        </div>
     </div>
     <footer>
+        <div class="copyright">
             Copyright &copy
+        </div>
     </footer>
 </body>
+
 </html>

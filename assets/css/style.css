@@ -9,7 +9,6 @@
 
 
 
-
 /* Header for All Pages */
 header {
     position: relative;
@@ -17,7 +16,7 @@ header {
     left: 0;
     background-color: white;
     border-color: #cccccc;
-    height: 100px;
+    height: 85px;
     width: 100%;
 }
 #nav {
@@ -83,6 +82,7 @@ body {
     height: 100%;
     background-color: lightgray;
     margin: -22px 0 0 0;
+    z-index: -10;
 }
 
 #about-me {
@@ -94,20 +94,6 @@ body {
     margin-right: 12px;
     margin-bottom: 10px;
     padding-bottom: 10px;
-}
-
-
-/* All Pages Footer*/
-footer {
-    position: absolute;
-    bottom: 0;
-    background-color: #666666;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    border-top-style: solid;
-    border-color: #4aaaa5;
-    margin: 0 auto;
 }
 
 
@@ -132,7 +118,7 @@ footer {
 
 #input-name {
     width: 99%;
-    height: 25px;
+    height: 17px;
     margin: auto;
     padding: auto;
     border: 1px solid gray;
@@ -141,7 +127,7 @@ footer {
 
 #input-email {
     width: 99%;
-    height: 25px;
+    height: 17px;
     margin: auto;
     padding: auto;
 }
@@ -153,51 +139,140 @@ footer {
     padding: auto;
 }
 
+.btn-1 {
+    background-color: #4aaaa5;
+    color: white;
+    position: relative;
+    height: 50px;
+    width: 100px;
+    font-size: 17px;
+    left: 10px;
+    bottom: 10px;
+}
+
 /* Portfolio Page */
 
 #container {
     clear: auto;
     width: 960px;
-    height: 500px;
-    background-color: #ffffff;
-    margin-top: 30px;
+    height: relative;
+    background-color: #ffffff !important;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 100;
+    /* display: block; */
+    /* position: relative; */
+}
+
+#portfolio {
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    margin: 5px;
+    padding: 5px;
+    border-color: gainsboro;
 }
 
 #container-pics {
-    width: 50%;
-    height: relative;
+    width: 700px;
+    /* height: relative; */
+    /* background-color: red !important; */
+    margin: 0 auto;
+    z-index: 10000;
+}
+
+/* .container-pic {
+    height: 200px;
+    width: 200px;
+} */
+
+#row-1 {
+    width: 700px;
+    height: 225px;
+    background-color: #ffffff;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+
+#row-2 {    
+    width: 700px;
+    height: 225px;
     background-color: #ffffff;
     margin: 0 auto;
 }
+.pic-container {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff !important;
+    
+}
 
 #hangmanpic {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    /* margin-right: 20px;
+    margin-left: auto; */
 }
 
 #spaceInvaders {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    /* margin: auto; */
 }
 
 #triviaPic {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+    /* margin-left: 20px;
+    margin-right: auto; */
 }
 
 #rockPaperScissors {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
 }
 
 #RPGGame {
-    width: 150px;
-    height: 150px;
-    float: left;
+    width: 200px;
+    height: 200px;
+    /* float: left; */
+}
+
+.bannerLabel {
+    color: white !important;
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 165px;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
+
+}
+/* All Pages Footer*/
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #666666;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    margin: 0 auto;
+    color: white;
+    padding-top: 10px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 0;
 }
